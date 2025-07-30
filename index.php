@@ -74,6 +74,7 @@ if($_SERVER['REQUEST_METHOD']== "POST"){
     </main>
     <footer class="text-center mt-3">
         Desarrollado por: Jose Danilo Chinchilla
+        Seguido por: Carlos Eduardo Ramírez Wong
     </footer>
 </body>
 </html>

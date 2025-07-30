@@ -5,6 +5,7 @@
         <ul class="nav flex-column">
           <li class="nav-item"><a class="nav-link text-white" href="home.php">Inicio</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="usuarios.php">Usuarios</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="tareas.php">Tareas</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#">Reportes</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#">Configuración</a></li>
         </ul>
