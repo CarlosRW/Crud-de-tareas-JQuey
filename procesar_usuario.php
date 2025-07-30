@@ -77,4 +77,22 @@
     $mysqli->close();
     exit();
   }
+
+if (isset($_GET['obtener_usuarios'])) {
+    $query = "SELECT Id_usuario, Nombre FROM usuarios";
+    $result = $mysqli->query($query);
+    
+    if (!$result) {
+        die("Error en la consulta: " . $mysqli->error);
+    }
+
+    $usuarios = [];
+    while ($row = $result->fetch_assoc()) {
+        $usuarios[] = $row;
+    }
+
+    header('Content-Type: application/json');
+    echo json_encode($usuarios);
+    exit();
+}
 ?>
